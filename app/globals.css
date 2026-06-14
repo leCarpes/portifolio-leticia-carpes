@@ -19,8 +19,70 @@
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+html{
+scroll-behavior:smooth;
+}
+
+
+body{
+
+background:#050505;
+color:white;
+
+}
+
+
+.section{
+
+max-width:1200px;
+margin:auto;
+
+padding-top:100px;
+padding-bottom:100px;
+
+padding-left:32px;
+padding-right:32px;
+
+}
+
+
+.glass{
+
+background:
+rgba(24,24,27,.65);
+
+backdrop-filter:blur(15px);
+
+border:
+1px solid rgba(255,255,255,.08);
+
+}
+
+
+.red-glow{
+
+box-shadow:
+0 0 40px rgba(239,35,60,.35);
+
+}
+
+
+.grid-bg{
+
+background-image:
+
+linear-gradient(
+rgba(255,255,255,.04) 1px,
+transparent 1px
+),
+
+linear-gradient(
+90deg,
+rgba(255,255,255,.04) 1px,
+transparent 1px
+);
+
+background-size:
+40px 40px;
+
 }
